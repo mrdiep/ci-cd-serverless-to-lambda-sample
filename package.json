@@ -1,0 +1,38 @@
+{
+    "name": "aws-node-rest-api-typescript",
+    "description": "",
+    "version": "0.1.0",
+    "scripts": {
+        "test": "jest --watchAll --colors --coverage",
+        "init-lint": "eslint --init",
+        "lint": "eslint . --ext .ts",
+        "build": "tsc --build",
+        "clean": "tsc --build --clean"
+    },
+    "devDependencies": {
+        "@types/aws-lambda": "^8.10.61",
+        "@types/jest": "26.x",
+        "@types/node": "14.x",
+        "@typescript-eslint/eslint-plugin": "^4.22.0",
+        "@typescript-eslint/parser": "^4.22.0",
+        "eslint": "7.x",
+        "eslint-config-airbnb-base": "14.x",
+        "eslint-config-prettier": "7.x",
+        "eslint-import-resolver-webpack": "0.13.x",
+        "eslint-plugin-import": "2.x",
+        "eslint-plugin-jest": "24.x",
+        "eslint-plugin-node": "11.x",
+        "eslint-plugin-prettier": "3.x",
+        "eslint-plugin-react": "^7.23.2",
+        "jest": "26.x",
+        "serverless": "^1.78.1",
+        "serverless-offline": "^6.5.0",
+        "serverless-plugin-typescript": "^1.1.9",
+        "ts-jest": "26.x",
+        "ts-loader": "8.x",
+        "ts-node": "9.x",
+        "typescript": "4.1.x",
+        "webpack": "5.x",
+        "webpack-node-externals": "1.7.x"
+    }
+}
